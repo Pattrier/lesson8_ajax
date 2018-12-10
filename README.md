@@ -4,21 +4,20 @@
 LIS 2360:  Web Application Development
 
 ### Assignment Date:  
-(Month Day, Year)
+(December 10, 2018)
 
 ### Student Name:  
-(First and Last Name)
+(Patrick Trierweiler)
 
 ### Project Description:
-(In your own words, briefly describe the assignment.)
+(This project creates a API using JSON, AJAX, CSS, HTML, AND some basic JS to search for basic info about movies.)
 
 ### View Project:
-(Replace this statement with your Github Page URL that was created when you 
- published the project.)
+(https://github.com/Pattrier/lesson8_ajax)
 
 ### Lessons Learned in the Assignment:
-1. (Briefly describe a lesson/concept learned in this lesson.)
-2. (Briefly describe a lesson/concept learned in this lesson.)
-3. (Briefly describe a lesson/concept learned in this lesson.)
-4. (Briefly describe a lesson/concept learned in this lesson.)
-5. (Briefly describe a lesson/concept learned in this lesson.)
+1. (JSON can be used to to simply the process of using API)
+2. ( API or (application programming interface) is used to allow types of software to "speak" to each other )
+3. (AJAX (Asynchronous JavaScript And XML) is a combination of XML,JavaScript, and HTML)
+4. (Browser events: created and XMLHTTPRequest, Send Http Request)
+5. (Server Events: Process HTTP Request, Create a "response and send back data to browser")
