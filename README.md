@@ -14,6 +14,7 @@ LIS 2360:  Web Application Development
 
 ### View Project:
 (https://github.com/Pattrier/lesson8_ajax)
+https://pattrier.github.io/lesson8_ajax/index
 
 ### Lessons Learned in the Assignment:
 1. (JSON can be used to to simply the process of using API)
