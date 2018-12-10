@@ -26,14 +26,14 @@ $(document).ready(function(){
                         
                 TASK #1:
                         Insert YOUR API Key after the '=' inside of the single quotes.
-                        
+                        url:'https://api.themoviedb.org/3/movie/550?api_key=76c1b00d8071f8b0d69892be8da1b384'
                 HINT:  Replace the text "INSERT-HERE" with your API Key.
 
             ************************************************************************************************/
 
             $.ajax({
                 //Insert YOUR API Key after the '=' inside the single quotes.
-                url:'https://api.themoviedb.org/3/search/movie?api_key=INSERT-HERE',
+                url:'https://api.themoviedb.org/3/search/movie?api_key=76c1b00d8071f8b0d69892be8da1b384',
                 data: query
             })
             
@@ -57,7 +57,7 @@ $(document).ready(function(){
                  3.  Use the example above where the Movie Title was retrieved to complete this step!
                  
                  *********************************Insert Code Below********************************************/                
-                
+                $("#overview").html(json.results[0].overview);
                 
                 
 
@@ -72,7 +72,7 @@ $(document).ready(function(){
                  3.  Use the example above where the Movie Title was retrieved to complete this step!
                  
                  *********************************Insert Code Below********************************************/               
-
+                $("#release_date").html(json.results[0].release_date);
 
 
 
@@ -87,7 +87,7 @@ $(document).ready(function(){
                  3.  Use the example above where the Movie Title was retrieved to complete this step!
                  
                  *********************************Insert Code Below********************************************/   
-
+                $("#popularity").html(json.results[0].popularity);
   
 
                 
@@ -102,7 +102,7 @@ $(document).ready(function(){
                  3.  Use the example above where the Movie Title was retrieved to complete this step!
                  
                  *********************************Insert Code Below********************************************/                 
-
+                $("#original_language").html(json.results[0].original_language);
 
 
                 //The following code retrieves the movie poster path from the JSON object retrieved from the TMDB 
